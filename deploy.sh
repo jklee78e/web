@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_DIR="/home/ubuntu/my_app"
-COMPOSE_FILE="/home/ubuntu/my_app/docker-compose.yml"
+APP_DIR="/home/ubuntu/web"
+COMPOSE_FILE="/home/ubuntu/web/docker-compose.yml"
 
 # 최신 코드 pull
 cd $APP_DIR
