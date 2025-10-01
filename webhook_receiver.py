@@ -7,7 +7,7 @@ app = Flask(__name__)
 # NOTE: GitHub에 설정한 Secret Key와 동일하게 설정해야 합니다.
 # 실제 환경에서는 환경 변수를 사용하세요.
 GITHUB_SECRET = "web"  # <--- 이 부분을 반드시 GitHub 웹훅 설정과 동일하게 변경하세요!
-DEPLOY_SCRIPT = "/home/ubuntu/webß/deploy.sh"
+DEPLOY_SCRIPT = "/app/deploy.sh"
 
 @app.route('/webhook_endpoint', methods=['POST'])
 def webhook():
