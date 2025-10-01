@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Streamlit 앱 실행 (컨테이너가 시작될 때 자동으로 실행)
-# `--server.port=8000`으로 포트 설정
-CMD ["streamlit", "run", "app.py", "--server.port=8000", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
+# `--server.port=8051`으로 포트 설정
+CMD ["streamlit", "run", "app.py", "--server.port=8051", "--server.enableCORS=false", "--server.enableXsrfProtection=false", "--server.runOnSave=true"]
