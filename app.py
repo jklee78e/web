@@ -13,7 +13,7 @@ data = np.random.randn(100)
 # Matplotlib으로 히스토그램 그리기
 fig, ax = plt.subplots()
 ax.hist(data, bins=20)
-ax.set_title("무작위 데이터 히스토그램")
+ax.set_title("무작위 데이터 히스토그램1")
 ax.set_xlabel("값")
 ax.set_ylabel("빈도")
 
